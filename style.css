@@ -1,5 +1,3 @@
-/* css -> styling */
-
 .font-lavishly {
     font-family: "Lavishly Yours", cursive;
 }
@@ -12,6 +10,14 @@
 
 }
 
+* {
+    text-align: center;
+}
+
+iframe {
+    max-width: 600px;
+}
+
 body {
     background: url('https://img.freepik.com/premium-photo/abstract-yellow-watercolor-stain-with-paper-texture-background-template-invitation-card-greeting-card-wedding-card_364465-1670.jpg');
 }
@@ -22,6 +28,11 @@ header {
     align-items: center;
 }
 
+.sub-head {
+    font-size: 54px;
+    margin-bottom: 10px;
+}
+
 header img {
     width: 200px;
     mix-blend-mode: multiply;
@@ -30,7 +41,6 @@ header img {
 header h1 {
     font-size: 48px;
     margin: 10px 0;
-    /* text-shadow: -1px -1px 4px red; */
 }
 
 header p {
@@ -39,13 +49,8 @@ header p {
 }
 
 #groom-bride-name h2 {
-    text-align: center;
     font-size: 60px;
     margin: 20px 0;
-}
-
-#groom-bride-illustration {
-    text-align: center;
 }
 
 #groom-bride-illustration img {
@@ -54,21 +59,11 @@ header p {
 }
 
 #date-venue {
-    text-align: center;
     font-size: 20px;
 }
 
 footer iframe {
     width: 100%;
-}
-
-#venue {
-    text-align: center;
-}
-
-#venue h2 {
-    font-size: 54px;
-    margin-bottom: 10px;
 }
 
 #venue p {
@@ -79,27 +74,9 @@ footer iframe {
     width: 100%;
 }
 
-#wedding-plan {
-    text-align: center;
-}
-
-#wedding-plan h2 {
-    font-size: 54px;
-    margin-bottom: 10px;
-}
-
 #wedding-plan h4 {
     font-size: 20px;
     text-decoration: underline;
-}
-
-#compliments {
-    text-align: center;
-}
-
-#compliments h2 {
-    font-size: 54px;
-    margin-bottom: 10px;
 }
 
 #compliments p {
@@ -108,7 +85,6 @@ footer iframe {
 
 footer {
     margin-top: 40px;
-    text-align: center;
 }
 
 #baby-calling {
